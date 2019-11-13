@@ -22,8 +22,7 @@ end
 def gross_for_director(director_data)
     pp director_data
     director_data.each do |name_movies|
-    gross = 0 
-    director_name = name_movies[:name]
+    gross = 0
     name_movies[:movies].each do |movie|
       gross += movie[:worldwide_gross]
     end 
