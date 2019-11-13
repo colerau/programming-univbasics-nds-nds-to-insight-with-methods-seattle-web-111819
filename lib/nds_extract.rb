@@ -9,7 +9,9 @@ require "pp"
 # nds and directors_database refer to the same nested DS
 
 def directors_totals(nds)
-  
+  nds.each do |name_movies|
+    name_movies[:movies].each do |movie|
+      gross += movie[:worldwide_gross] 
 
 end
 
