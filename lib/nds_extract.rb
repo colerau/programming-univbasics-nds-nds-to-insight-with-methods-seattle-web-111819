@@ -14,6 +14,7 @@ def directors_totals(nds)
     director_name = name_movies[:name]
     hash.store(director_name, gross_for_director(name_movies))
   end
+  hash
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
