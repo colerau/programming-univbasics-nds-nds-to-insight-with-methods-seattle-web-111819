@@ -9,6 +9,7 @@ require "pp"
 # nds and directors_database refer to the same nested DS
 
 def directors_totals(nds)
+  
 
 end
 
