@@ -25,5 +25,6 @@ end
 # using director_data as input
 def gross_for_director(director_data)
   gross = director_data[:movies][0][worldwide_gross]
+  puts gross 
 end
 
