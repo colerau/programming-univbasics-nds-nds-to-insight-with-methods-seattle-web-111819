@@ -24,7 +24,7 @@ end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
-  puts director_data
+  pp director_data
   director_data.each do |name_movies|
     name_movies.each do |
   gross = director_data[:movies][0][:worldwide_gross]
