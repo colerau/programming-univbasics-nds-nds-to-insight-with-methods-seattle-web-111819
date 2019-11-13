@@ -11,6 +11,7 @@ require "pp"
 def directors_totals(nds)
   nds.each do |name_movies|
     name_movies[:movies].each do |movie|
+      director_name = 
       gross += movie[:worldwide_gross] 
 
 end
