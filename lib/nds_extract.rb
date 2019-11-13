@@ -13,7 +13,6 @@ def directors_totals(nds)
   nds.each do |name_movies|
     director_name = name_movies[:name]
     name_movies[:movies].each do |movie|
-      gross += movie[:worldwide_gross]
     end
     hash.store(director_name, gross_for_director(nds))
   end
