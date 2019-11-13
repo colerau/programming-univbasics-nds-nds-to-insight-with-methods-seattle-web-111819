@@ -16,6 +16,7 @@ def directors_totals(nds)
       gross += movie[:worldwide_gross] 
     end
   end
+  hash.store(director_name, gross)
 
 end
 
