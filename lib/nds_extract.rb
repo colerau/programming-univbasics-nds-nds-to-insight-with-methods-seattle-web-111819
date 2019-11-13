@@ -11,7 +11,7 @@ require "pp"
 def directors_totals(nds)
   hash = {}
   nds.each do |name_movies|
-    gross_for_director(name_movies)
+    gross = gross_for_director(name_movies)
     director_name = name_movies[:name]
     hash.store(director_name, 
   end
